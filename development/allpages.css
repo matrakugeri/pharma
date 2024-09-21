@@ -19,7 +19,7 @@ body {
 
 .image {
   max-width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 
 /**********************/
@@ -66,7 +66,7 @@ nav {
 }
 
 .img {
-  width: 12rem;
+  /* width: 12rem; */
   height: 7rem;
 }
 
@@ -137,4 +137,51 @@ nav {
   transform: translateY(-50%);
   /* left: 50%; */
   /* transform: translate(-50%, -50%); */
+}
+
+/* NEW NAV  */
+.logo-paragraph:link,
+.logo-paragraph:visited {
+  font-size: 1.8rem;
+  color: #000;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.logo-paragraph:hover {
+  color: #adb5bd;
+}
+
+/******************/
+/* NAV-BAR DONE */
+/******************/
+
+.hidden {
+  display: none !important;
+}
+
+.close-menu {
+  width: 5rem;
+  height: 5rem;
+}
+
+.menu-nav {
+  display: none;
+}
+
+.nav-list2 {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  font-size: 4rem;
+  gap: 4rem;
+}
+
+.phone-navbar {
+  max-width: 100%;
+  height: 100vh;
 }
